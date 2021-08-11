@@ -17,57 +17,5 @@ The user will be redirected to a dedicated book page when the user click one of 
 
 ![enter image description here](example_images/book_info.png)
 
-## Credential setup
-Before you can use the project you must create the following JSON credential files in the credentials folder:
- **bolComApiKey.json**
- 
 
-    { 
-	    "key" : "TODO"
-    }
-    
- **goodReadsApiKey.json**
- 
-
-    {
-	    "key" : "TODO",
-	    "secret": "TODO"
-	}
-    
- **googleVisionApiKey.json**
- 
-
-    {
-	 "type": "TODO",
-	 "project_id": "TODO",
-	 "private_key_id": "TODO",
-	 "private_key": "TODO",
-	 "client_email": "TODO",
-	 "client_id": "TODO",
-	 "auth_uri": "TODO",
-	 "token_uri": "TODO",
-	 "auth_provider_x509_cert_url": "TODO",
-	 "client_x509_cert_url": "TODO"
-	}
-
-    
-
-## Running the application manually
-Run the following command:
-
-    npm install
-    npm run-script build
-    npm start
-    
-## Running the application in docker
-Run the following command:
-
-    docker build -t <IMAGE_NAME> .
-    docker run --name=<CONTAINER_NAME> --publish=80:8080 <IMAGE_NAME>
-    
-## Running the application from DockerHub
-Run the following command:
-
-    docker pull j0rd1smit/cab432-api-mashup
-    docker run --name=<CONTAINER_NAME> --publish=80:8080 j0rd1smit/cab432-api-mashup
 
